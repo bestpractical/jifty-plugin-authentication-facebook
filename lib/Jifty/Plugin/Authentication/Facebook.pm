@@ -4,6 +4,8 @@ use warnings;
 package Jifty::Plugin::Authentication::Facebook;
 use base qw/Jifty::Plugin/;
 
+our $VERSION = '0.01';
+
 use WWW::Facebook::API;
 
 =head1 NAME
