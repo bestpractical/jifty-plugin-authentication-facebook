@@ -111,4 +111,16 @@ sub get_link_url {
     return $self->api->get_login_url( next => $next );
 }
 
+=head1 AUTHOR
+
+Alex Vandiver
+
+=head1 LICENSE
+
+Copyright 2005-2009 Best Practical Solutions, LLC.
+
+This program is free software and may be modified and distributed under the same terms as Perl itself.
+
+=cut
+
 1;
